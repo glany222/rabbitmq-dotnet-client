@@ -94,7 +94,7 @@ namespace RabbitMQ.Client
 #endif
 
         /// <summary>
-        /// Retrieve or set the path to client certificate.
+        /// Retrieve or set the password for the client authentication certificate specified in CertPath.
         /// </summary>
         public string CertPassphrase { get; set; }
 
